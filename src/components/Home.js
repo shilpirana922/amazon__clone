@@ -12,7 +12,7 @@ const Home=()=>{
            className="home__row">
              <Product title="The New Startup 0.96 inch TFT Screen : 0.96 inch TFT high-resolution display, makes the displayed con"
              price="29.99"
-             image="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333576876i/10127019._UY630_SR1200,630_.jpg"
+             image="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/amazon-seo-product-images.jpg?RTG4A4jxOolNLZ63fSqHL5uboAaRwXU6&itok=XSbikWqd"
              rating={5 }/>
              <Product 
              title="Showcase your talents and skills of sewing and embroidering fabrics with the potable Usha Marvela Sewing Machine. The modern sewing machine comes with practical features like seven applications"
