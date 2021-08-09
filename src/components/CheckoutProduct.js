@@ -5,6 +5,7 @@ import "../css/CheckoutProduct.css"
 
 const CheckoutProduct=({id, image,title,price, rating})=> {
 
+    console.log(title)
     const [{basket}, dispatch] = useStateValue();
     const removeFromBasket =()=>{
         //remove the item from basket
@@ -13,7 +14,7 @@ const CheckoutProduct=({id, image,title,price, rating})=> {
             id:id
         })
     }
-
+ 
     return (
         <div className="checkoutProduct">
             <img className="checkoutProduct__image"
